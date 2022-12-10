@@ -1,0 +1,57 @@
+.leaf {
+  opacity: 20%;
+  position: absolute;
+  z-index: -1;
+}
+
+#leaf1 {
+  top: 80%;
+  left: -5%;
+  transform: scaleX(-1);
+}
+
+#leaf2 {
+ top: 30%;
+ right: -10%;
+ transform: scaleX(-1);
+}
+
+#leaf3 {
+ top: 100%;
+ left: -10%;
+ transform: scaleX(-1);
+}
+
+#leaf4 {
+ top: 140%;
+ right: -10%;
+}
+
+#leaf5 {
+ top: 200%;
+ left: -10%;
+ transform: scaleX(-1);
+}
+
+#leaf6 {
+ top: 260%;
+ right: -10%;
+ transform: scaleX(-1);
+}
+
+#leaf7 {
+ top: 300%;
+ left: -10%;
+ transform: scaleX(-1);
+}
+
+#leaf8 {
+ top: 330%;
+ right: -10%;
+}
+
+#leaf9 {
+ top: 370%;
+ left: -10%;
+ transform: scaleX(-1);
+}
