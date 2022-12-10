@@ -16,7 +16,7 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
-h2 {
+.our-menus {
   display: flex;
   justify-content: center;
   align-items: center;

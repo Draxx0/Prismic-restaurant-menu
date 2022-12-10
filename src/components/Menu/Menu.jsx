@@ -11,18 +11,18 @@ const Menu = ({ recipe }) => {
         </div>
 
         <div className="recipe-card-bottom">
-          <h2>{recipe.name}</h2>
+          <h2 className="recipe-title">{recipe.name}</h2>
           <div className="ingredients-container">
-            <h4>Ingrédients</h4>
+            <h4 className="ingredient-title">Ingrédients</h4>
             <ul>
               {recipe.ingredientslist.map((ingredient, index) => (
-                <li key={ingredient + index}>{ingredient}</li>
+                <li className="ingredient" key={ingredient + index}>{ingredient}</li>
               ))}
             </ul>
           </div>
           <div className="price-container">
             <h4>Prix</h4>
-            <p>{recipe.price} €</p>
+            <p className="price">{recipe.price} €</p>
           </div>
         </div>
       </div>

@@ -10,8 +10,6 @@ function App() {
   const [recipes, setRecipes] = useState([]);
   const [menu, setMenu] = useState([]);
 
-  console.log(menu);
-
   const getDataModeled = async () => {
     const data = await ModelingData();
     setRecipes(data.modeledRecipes);
@@ -27,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <Header menu={menu} />
-      <MenuList recipes={recipes} />
+      <MenuList recipes={recipes} menu={menu} />
       <Decorations />
       <Footer menu={menu} />
     </div>
